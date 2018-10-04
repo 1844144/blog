@@ -1,6 +1,6 @@
 ## Posts
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.pages %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
